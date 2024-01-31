@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     margin: 0px;
     padding: 0px;
@@ -5,7 +9,7 @@ body{
     font-family: 'Karla', sans-serif;
 }
 
-.container{
+.container-header{
     width: 620px;
     margin: 0 auto;
     background-color: #ede0d4;
@@ -29,4 +33,81 @@ h2{
 
 h1{
     margin-top: 0px;
+}
+
+/*############################################ MAIN SECTION #############################################*/
+
+.container-main{
+    width: 620px;
+    margin: 25px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    margin: 0 auto;
+}
+
+.controls-container{
+    width: 200px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.moods-container{
+    margin-top:28px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #DDB892;
+    border-radius: 5px;
+}
+
+.radio{
+    display: flex;
+    padding: 4px 8px;
+    border-bottom: 1px solid #DDB892;
+}
+
+label{
+    cursor: pointer;
+    padding: 3px;
+    width: 100%;
+}
+
+input[type="radio"]{
+    cursor: pointer;
+}
+
+.radio:last-child{
+    border-bottom: none;
+}
+
+.highlight{
+    background-color: #fff0ee;
+    color: #7F5539;
+    font-weight: bold;
+    accent-color: #7F5539;
+}
+
+.gifs-check{
+    margin: 25px auto;
+}
+
+.get-image-btn{
+    margin: 0 auto 20px auto;
+    padding: 15px 40px;
+    font-size: 20px;
+    border: none;
+    background-color: #ede0d4;
+    border-radius: 5px;
+    color: #7F5539;
+    font-weight: bold;
+    text-shadow: 0 0 1px white;
+    cursor: pointer;
+}
+
+.get-image-btn:active{
+    transform: scale(0.95);
+    border: 2px solid #9C6644;
 }
