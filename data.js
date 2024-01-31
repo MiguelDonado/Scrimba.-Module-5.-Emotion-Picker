@@ -1,4 +1,4 @@
-const gogginsData = [
+export const gogginsData = [
     {
         emotionTags:["focused"],
         isGif:false,

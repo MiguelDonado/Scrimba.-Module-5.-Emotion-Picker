@@ -111,3 +111,44 @@ input[type="radio"]{
     transform: scale(0.95);
     border: 2px solid #9C6644;
 }
+
+/*########################### MODAL ################################*/
+
+.modal-container{
+    display: none; /*flex when displayed*/
+    position: fixed;
+    margin: auto;
+    top: 110px;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 450px;
+    height: 500px;
+    background-color: #DDB892;
+}
+
+.modal-close-btn{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    background-color: transparent;
+    border: 2px solid #555;
+    color: #555;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 14px;
+}
+.modal-close-btn:hover{
+    transform: scale(0.95);
+    background-color: rgb(212, 24, 24);
+    border: 2px solid rgb(212, 24, 24);
+}
+
+.goggins-img{
+    max-width: 410px;
+    max-height: 430px;
+    border-radius: 5px;
+}
